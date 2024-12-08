@@ -1,0 +1,32 @@
+body {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button{
+  padding: 10px;
+  margin: 10px;
+  font-size: 15px;
+  border-radius: 10px;
+  background-color: rgb(180, 60, 39);
+  color: white;
+  font-weight: 800;
+  transition: background-color .3s;
+}
+
+button:hover{
+  background-color: rgb(121, 47, 34)
+}
+
+#result, #score {
+  font-size: 20px;
+  margin: 10px;
+}
+
+#reset-btn{
+  background-color: rgb(22, 160, 160);
+  transition: background-color .3s;
+}
+#reset-btn:hover{
+  background-color: rgb(9, 48, 48);
+}
